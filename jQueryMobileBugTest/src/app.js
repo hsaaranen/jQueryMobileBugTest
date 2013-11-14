@@ -50,8 +50,8 @@
                 stroke: 'black',
                 fill: 'blue',
                 strokeWidth: 1,
-                width: 200,
-                height:200
+                width: 600,
+                height:600
             });
 
             this.circle = new Kinetic.Circle({                
@@ -59,8 +59,8 @@
                 stroke: 'black',
                 strokeWidth: 1,
                 fill: 'red',
-                x: 85,
-                y: 85
+                x: 200,
+                y: 200
             });
 
             this.stage.add(this.staticLayer);
